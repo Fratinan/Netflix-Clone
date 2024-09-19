@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+}
+.conteiner {
+  color: white;
+  border: 5px solid red;
+  margin: 20px;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.conteiner div {
+  border: 5px solid red;
+  margin: 15px;
+}
+.padding {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin {
+  display: grid;
+  width: 500px;
+}
+
+.justify {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  height: 100px;
+  text-align: left;
+  width: 500px;
+}
+
+.align-item {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  padding-left: 150px;
+  box-sizing: border-box;
+  width: 510px;
+}
+
+.display {
+  width: 500px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(4);
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-item {
+  border-color: rgb(255, 255, 255);
+  border: 2px solid green;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  font-size: 10px;
+}
